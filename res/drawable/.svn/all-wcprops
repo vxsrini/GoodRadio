@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ihrupin/samples/!svn/ver/26/trunk/android/Streaming_Audio_Player/res/drawable
+END
+button_play.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ihrupin/samples/!svn/ver/26/trunk/android/Streaming_Audio_Player/res/drawable/button_play.png
+END
+button_pause.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ihrupin/samples/!svn/ver/26/trunk/android/Streaming_Audio_Player/res/drawable/button_pause.png
+END
+seekbarcolors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ihrupin/samples/!svn/ver/17/trunk/android/Streaming_Audio_Player/res/drawable/seekbarcolors.xml
+END
+thumb.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ihrupin/samples/!svn/ver/17/trunk/android/Streaming_Audio_Player/res/drawable/thumb.png
+END

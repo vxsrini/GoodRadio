@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Customizable Radio App</string>
+    <string name="testsong_20_sec">http://users.skynet.be/fa046054/home/P22/track06.mp3</string>
+    <string name="selectLanguage">Select Language</string>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>Kannada</item>
+        <item>Telugu</item>
+    </string-array>
+
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/listviewbkg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/radio_name"
+        android:layout_width="180dp"
+        android:textColor="#212121"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"      
+        android:scrollHorizontally="true"  
+        android:gravity="center_vertical"
+        android:layout_height="60dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/radio_lang"
+        android:layout_width="fill_parent"
+        android:textColor="#212121"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"      
+        android:scrollHorizontally="true" 
+		android:gravity="center_vertical"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/radio_name"
+        android:textSize="18sp" />
+     <TextView android:id="@+id/hidden_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:visibility="gone"/>
+     <TextView android:id="@+id/hiddenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:visibility="gone"/>
+     <CheckBox
+        android:id="@+id/indCheckBox"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

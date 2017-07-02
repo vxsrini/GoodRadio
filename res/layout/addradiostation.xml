@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/addStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Add Station"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/addStationName"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Enter Radio Station Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/addStationUri"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:layout_gravity="center"
+        android:hint="Enter Radio Streaming URI"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/addStationLang"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:entries="@array/Language"
+        android:layout_gravity="center"
+        android:prompt="@string/selectLanguage" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+        android:id="@+id/addStationDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="insertStation"
+        android:layout_marginTop="20dp"
+        android:text="Add" />
+        
+        <Button
+        android:id="@+id/clearForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:onClick="clearForm"
+	    android:layout_toRightOf="@id/addStationDB"
+	    android:layout_marginLeft="10dp"
+        android:text="clear" />
+    </RelativeLayout>
+    
+  </LinearLayout>
+  
